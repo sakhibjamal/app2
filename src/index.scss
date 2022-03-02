@@ -1,0 +1,53 @@
+body {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  min-height: 400vh;
+
+  header {
+    height: 200vh;
+    background: linear-gradient(rgba(31, 28, 28, 0.8) 100%, rgba(84, 79, 79, 0.8) 100%), url("https://wallpapercave.com/wp/wp8719460.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .up {
+      padding:  0 100px;
+      height: 380px;
+      background-color: rgba(0, 0, 0, 0.7);
+
+      img {
+        margin-top: 10px !important;
+      }
+
+      .navbar {
+        border-bottom: 2px solid white;
+
+        .uls {
+        }
+      }
+
+      .name {
+        color: rgb(254, 128, 93);
+      }
+    }
+
+    .section-card {
+      .container {
+        margin-top: 200px;
+
+        .row {
+          background-color: rgba(0, 0, 0, 0.5);
+
+          .col-12 {
+            .new-realise {
+              background-color: rgb(254, 128, 93);
+              padding: 10px 20px;
+              box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+            }
+          }
+        }
+      }
+
+    }
+
+  }
+}
